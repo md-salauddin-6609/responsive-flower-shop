@@ -45,7 +45,7 @@ button > a{
     font-size: 18px;
     color: rgba(39, 39, 39, 0.6);
 }
-
+ /* media quary small device */
 @media screen and (max-width: 576px) {
     .introduction-flower-section{
         display: grid;
@@ -58,6 +58,9 @@ button > a{
     }
 
 }
+
+/* media quary medium device */
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .introduction-flower-section{
         display: grid;
@@ -67,5 +70,100 @@ button > a{
     .introduction-first-column, .introduction-second-column{
         padding: 50px 50px 0px 50px;
         width: calc(100% - 50)/2;
+    }
+}
+
+
+.hide{
+    display: none;
+}
+/* design featured-flower-section */
+
+
+.featured-first-column{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.featured-title{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 175px;
+}
+
+.featured-second-column{
+    display: flex;
+
+    margin: 0 240px;
+    gap: 24px;
+    padding-top: 50px;
+}
+.ankor{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px;
+    padding-top: 32px;
+}
+
+div a{
+    font-weight: bold;
+    font-size: 24px;
+    color: #272727;
+}
+
+.box-1{
+    background-color: #f6c5dd;
+    padding: 110px 77px 0px 77px;
+    border-radius: 300px 300px 0px 0px;
+}
+.box-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 115px 45px 50px 45px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.box-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+/* media quary small device */
+@media screen and (max-width: 576px) {
+    .featured-first-column{
+        width: 100%;
+
+    }
+    .featured-second-column{
+        display: grid;
+        grid-column: 1fr;
+        margin: 20px;
+        width: calc(100% - 40px);
+    }
+    .ankor{
+        margin: 0px 50px;
+        display: grid;
+        grid-column: 1fr;
+        gap: 10px;
+
+        
+    }
+}
+
+/* media quary medium device */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .featured-first-column{
+        width: 100%;
+    }
+    .featured-second-column{
+        display: grid;
+        margin: 0px 50px;
+        width: (100% - 50px)/2;
+
+    }
+    .ankor{
+        gap: 100px;
+        margin: 0px 50px;
     }
 }
