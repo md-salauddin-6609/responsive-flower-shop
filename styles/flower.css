@@ -215,3 +215,65 @@ div a{
         width: 100%;
     }
 }
+
+
+/* design discount section */
+.discount-section{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    gap: 185px;
+    justify-content: center;
+    background-size: cover;
+}
+
+.discount-title{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(39, 39, 39, 1);
+}
+.red{
+    color: rgba(229, 84, 115, 1);
+}
+button > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.discount-first-column{
+    text-align: center;
+    padding: 230px 0px 162px 395px;
+}
+
+.discount-second-column{
+    padding: 100px 430px 100px 0px;
+}
+
+/* media quary small device */
+@media screen and (max-width: 576px) {
+    .discount-section{
+        display: grid;
+    }
+    .discount-first-column{
+        padding: 20px;
+        width: calc(100% -40px);
+    }
+    .discount-second-column{
+        padding: 20px;
+        width: calc(100% -40px);
+        margin-top: -100px;
+    }
+}
+
+/* media quary medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .discount-section{
+        display: grid;
+    }
+    .discount-first-column{
+        padding: 50px;
+    }
+    .discount-second-column{
+        padding: 50px;
+        margin-top: -100px;
+    }
+}
