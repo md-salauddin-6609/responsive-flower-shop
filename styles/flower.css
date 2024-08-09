@@ -1,0 +1,71 @@
+
+/* shared design */
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+button > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    background-color: #E55473;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* design introduction-flower-section */
+.introduction-flower-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.1);
+    
+}
+
+.introduction-first-column{
+    padding: 200px 100px 145px 200px;
+}
+.introduction-second-column{
+    padding: 50px 200px 0px 0px;
+    width: 635px;
+}
+.introduction-title{
+    font-weight: bolder;
+    font-size: 80px;
+    color: rgba(39, 39, 39, 1);
+}
+.description{
+    font-weight: 400px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+@media screen and (max-width: 576px) {
+    .introduction-flower-section{
+        display: grid;
+        grid-column: 1fr;
+        width: 100%;
+    }
+    .introduction-first-column, .introduction-second-column{
+        padding: 20px;
+        width: calc(100% - 40);
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .introduction-flower-section{
+        display: grid;
+        grid-column: 1fr;
+        width: 100%;
+    }
+    .introduction-first-column, .introduction-second-column{
+        padding: 50px 50px 0px 50px;
+        width: calc(100% - 50)/2;
+    }
+}
