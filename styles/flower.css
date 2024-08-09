@@ -54,7 +54,7 @@ button > a{
     }
     .introduction-first-column, .introduction-second-column{
         padding: 20px;
-        width: calc(100% - 40);
+        width: calc(100% - 40px);
     }
 
 }
@@ -165,5 +165,53 @@ div a{
     .ankor{
         gap: 100px;
         margin: 0px 50px;
+    }
+}
+
+
+/* design service section */
+.out-service{
+    margin: 128px 240px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 10px;
+    
+}
+
+
+.service-columns{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 85px 150px 130px 150px;
+    
+    
+}
+
+.out-service  img{
+    width: 88px;
+}
+
+/* media quary small device */
+@media screen and (max-width:576px) {
+    .out-service{
+        margin: 20px;
+        width: (100% -40px);
+    }
+    .service-columns{
+        display: grid;
+        padding: 85px 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .out-service{
+        margin: 20px;
+        width: (100% -40px);
+    }
+    .service-columns{
+        display: grid;
+        padding: 85px 20px;
+        width: 100%;
     }
 }
