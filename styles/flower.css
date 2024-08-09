@@ -221,7 +221,7 @@ div a{
 .discount-section{
     display: flex;
     background-color: rgba(229, 84, 115, 0.05);
-    gap: 185px;
+    gap: 150px;
     justify-content: center;
     background-size: cover;
 }
@@ -241,11 +241,11 @@ button > a{
 
 .discount-first-column{
     text-align: center;
-    padding: 230px 0px 162px 395px;
+    padding: 230px 0px 162px 230px;
 }
 
 .discount-second-column{
-    padding: 100px 430px 100px 0px;
+    padding: 100px 350px 100px 0px;
 }
 
 /* media quary small device */
@@ -276,4 +276,74 @@ button > a{
         padding: 50px;
         margin-top: -100px;
     }
+}
+
+
+/* start instagram section */
+.Instagram-section{
+    margin: 130px 150px;
+}
+
+.Instagram-first-column{
+    text-align: center;
+    padding: 0px 300px;
+}
+
+.Instagram-second-column{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 50px;
+}
+
+/* desing latest deal section */
+.Latest-deal-section{
+    text-align: center;
+    background-image: url(../assets/images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin: 0px 150px;
+    border-radius: 5px;
+}
+.latest-deal-first-column{
+    padding: 100px 300px 0px 300px;
+
+}
+.latest-deal-second-column{
+    padding: 0px 250px 122px 250px;
+}
+
+.input{
+    border: none;
+    border-radius: 5px;
+    padding: 30px 220px 21px 22px;
+    margin-right: 20px;
+}
+
+.footer-section{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(17, 16, 16, 1);
+    padding: 80px 460px;
+}
+
+.footer-title{
+    font-weight: bolder;
+    font-size: 48px;
+    color: rgba(229, 84, 115, 1);
+}
+
+.shop{
+    color: #FFFFFF;
+}
+
+.footer-description{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer-copyright{
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
 }
